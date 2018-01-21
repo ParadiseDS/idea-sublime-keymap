@@ -1,4 +1,9 @@
 <keymap version="1" name="Sublime over Mac OS X 10.5+" parent="Mac OS X 10.5+">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="CheckinProject" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta w" />
@@ -91,6 +96,11 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
   <action id="Git.Push" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
@@ -104,7 +114,7 @@
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="GotoSymbol">
-    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="ImplementMethods" />
   <action id="IncrementalSearch">
